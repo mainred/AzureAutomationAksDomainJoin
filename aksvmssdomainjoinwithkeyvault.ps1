@@ -3,9 +3,9 @@
 Param
 (
   [Parameter (Mandatory= $true)]
-  [String] $VmssResourceGroupName,
-  [Parameter (Mandatory= $true)]
   [String] $VmssSubscriptionID,
+  [Parameter (Mandatory= $true)]
+  [String] $VmssResourceGroupName,
   [Parameter (Mandatory= $true)]
   [String] $VmssName,
   [Parameter (Mandatory= $true)]
@@ -25,9 +25,9 @@ Param
 function _doImport {
     param(
     [Parameter (Mandatory= $true)]
-    [String] $VmssResourceGroupName,
-    [Parameter (Mandatory= $true)]
     [String] $VmssSubscriptionID,
+    [Parameter (Mandatory= $true)]
+    [String] $VmssResourceGroupName,
     [Parameter (Mandatory= $true)]
     [String] $VmssName,
     [Parameter (Mandatory= $true)]
